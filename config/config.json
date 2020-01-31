@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ml-5-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/ml5/Ml5CommandSet.js",
+          "manifest": "./src/extensions/ml5/Ml5CommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "ml5": {
+      "path": "src/lib/ml5.js",
+      "globalName": "ml5"
+    }
+  },
+  "localizedResources": {
+    "Ml5CommandSetStrings": "lib/extensions/ml5/loc/{locale}.js"
+  }
+}

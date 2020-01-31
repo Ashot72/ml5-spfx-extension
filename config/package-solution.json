@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ml-5-client-side-solution",
+    "id": "e6de6e59-2325-4d36-8d8a-bea5e0242801",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "e024773b-0c45-45a0-a8bf-d77273b28a9b",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": ["elements.xml", "clientsideinstance.xml"]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ml-5.sppkg"
+  }
+}

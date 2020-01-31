@@ -1,0 +1,17 @@
+.header {
+  background-color: #0078d4;
+  color: #fff;
+  font-size: 24px;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.close {
+  float: right;
+  margin-top: 6px;
+  margin-right: 6px;
+}
+
+:global(.ms-Overlay) {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
