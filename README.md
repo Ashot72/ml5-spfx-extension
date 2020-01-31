@@ -19,4 +19,4 @@ To get started.
 
 Go to [ml5 SPFx extension Video](https://youtu.be/NbO_ZIVHdus) page
 
-Go to [ml5 (SPFx) description](https://ashot72.github.io/ml5-extension/description/) page
+Go to [ml5 (SPFx) description](https://ashot72.github.io/ml5-spfx-extension/index.html) page
