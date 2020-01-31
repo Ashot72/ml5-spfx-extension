@@ -30,8 +30,8 @@ export default class Ml5Modal extends React.Component<IMl5ModalProps, IMl5ModalS
     public async componentDidMount() {
         const { listId } = this.props;
 
-        const fields: Promise<any> = this.listService.getKnnListFields(listId);
-        const data: Promise<any> = this.listService.getKnnList(listId);
+        const fields: Promise<any> = this.listService.getMl5ListFields(listId);
+        const data: Promise<any> = this.listService.getMl5List(listId);
 
         return Promise.all([fields, data])
             .then(([f, d]) => this.setState({ fields: f, data: d }))

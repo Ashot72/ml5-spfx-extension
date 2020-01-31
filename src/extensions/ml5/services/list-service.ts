@@ -2,7 +2,7 @@ import { sp } from '@pnp/sp'
 import { sortBy } from 'lodash'
 
 export default class ListService {
-  public getKnnList = (listId: string): Promise<any> =>
+  public getMl5List = (listId: string): Promise<any> =>
     this.getFields(listId, ['InternalName']).then(fields => {
       const internalNames = fields.map(f => f.InternalName)
       return sp.web.lists
@@ -12,7 +12,7 @@ export default class ListService {
         .get()
     })
 
-  public getKnnListFields = (listId: string): Promise<any> =>
+  public getMl5ListFields = (listId: string): Promise<any> =>
     this.getFields(listId, ['Title', 'InternalName']).then(fields => {
       const mapped = fields.map(d => ({
         key: d.InternalName,
