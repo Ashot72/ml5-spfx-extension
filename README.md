@@ -8,7 +8,7 @@ To get started.
        Clone the repository
 
        git clone https://github.com/Ashot72/ml5-spfx-extension.git
-       cd ml5-extension
+       cd ml5-spfx-extension
 
        # installs dependencies
        npm install
@@ -17,6 +17,6 @@ To get started.
         npm run deploy-prod
 ```
 
-Go to [ml5 SPFx extension Video](https://youtu.be/NbO_ZIVHdus) page
+Go to [ml5 SharePoint Extension (SPFx) Video](https://youtu.be/NbO_ZIVHdus) page
 
-Go to [ml5 (SPFx) description](https://ashot72.github.io/ml5-spfx-extension/index.html) page
+Go to [ml5 SharePoint Extension (SPFx) description](https://ashot72.github.io/ml5-spfx-extension/index.html) page
